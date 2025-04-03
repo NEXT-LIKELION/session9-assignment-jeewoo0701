@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss 앱 UI</title>
+    <link rel="stylesheet" href="toss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="toss-logo">
+                <div class="toss-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.5 8.25C19.5 12.5302 16.0302 16 11.75 16H7.5C7.5 11.7198 10.9698 8.25 15.25 8.25H19.5Z" fill="#808080"/>
+                    </svg>
+                </div>
+                <span>toss</span>
+            </div>
+            <div class="header-icons">
+                <div class="profile-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="11" stroke="#EEEEEE" stroke-width="2"/>
+                        <circle cx="12" cy="10" r="4" fill="#CCCCCC"/>
+                        <path d="M5 19.5C5 16.5 8 14.5 12 14.5C16 14.5 19 16.5 19 19.5" fill="#CCCCCC"/>
+                    </svg>
+                </div>
+                <div class="bell-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 0 1-3.46 0" stroke="#808080" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <div class="search-bar">
+            <div class="search-text">토스뱅크</div>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 12L10 8L6 4" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+
+        <div class="account-section">
+            <div class="account-item">
+                <div class="account-info">
+                    <div class="account-icon toss-bank-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 7C16 10.3137 13.3137 13 10 13H6C6 9.68629 8.68629 7 12 7H16Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="account-details">
+                        <div class="account-name">토스뱅크 통장</div>
+                        <div class="account-amount">150,009원</div>
+                    </div>
+                </div>
+                <div class="transfer-btn">송금</div>
+            </div>
+
+            <div class="account-item">
+                <div class="account-info">
+                    <div class="account-icon gold-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 16C13.3137 16 16 13.3137 16 10C16 6.68629 13.3137 4 10 4C6.68629 4 4 6.68629 4 10C4 13.3137 6.68629 16 10 16Z" fill="white"/>
+                            <path d="M12 8L8 12M8 8L12 12" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="account-details">
+                        <div class="account-name">연리버2030통장</div>
+                        <div class="account-amount">73,820원</div>
+                    </div>
+                </div>
+                <div class="transfer-btn">송금</div>
+            </div>
+
+            <div class="account-item">
+                <div class="account-info">
+                    <div class="account-icon samsung-icon">
+                        <span>S</span>
+                    </div>
+                    <div class="account-details">
+                        <div class="account-name">투자·모아보기 · 6개</div>
+                        <div class="account-amount">90,000,000원 <span class="percent">+12.5%</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="account-link">
+                <span>내 계좌 · 대출 · 증권 · 포인트 보기 ></span>
+            </div>
+        </div>
+
+        <div class="additional-items">
+            <div class="additional-item">
+                <div class="additional-info">
+                    <div class="additional-icon green-icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="16" height="10" rx="2" transform="translate(2 5)" fill="white"/>
+                            <path d="M2 10H18" stroke="white" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <div class="additional-details">
+                        <div class="additional-name">이번 달 소비</div>
+                        <div class="additional-amount">125,000원</div>
+                    </div>
+                </div>
+                <div class="view-btn">새 내역 1건</div>
+            </div>
+
+            <div class="additional-item">
+                <div class="additional-info">
+                    <div class="additional-icon blue-box">
+                        <span>D-3</span>
+                    </div>
+                    <div class="additional-details">
+                        <div class="additional-name">3월 25일 낼 카드값</div>
+                        <div class="additional-amount">921,000원</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-section">
+            <div class="service-item">
+                <div class="service-icon">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 8.5C16 12.0899 13.0899 15 9.5 15C5.91015 15 3 12.0899 3 8.5C3 4.91015 5.91015 2 9.5 2C13.0899 2 16 4.91015 16 8.5Z" stroke="#3182f6" stroke-width="1.5"/>
+                        <path d="M9.5 4.5V8.5L12 11" stroke="#3182f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span>내 신용 점수</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 12L10 8L6 4" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="action-tabs">
+            <div class="tab-item">계좌개설</div>
+            <div class="tab-item">카드발급</div>
+            <div class="tab-item">대출받기</div>
+        </div>
+
+        <nav class="bottom-nav">
+            <div class="nav-item active">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" fill="#3182f6" stroke="#3182f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>홈</span>
+            </div>
+            <div class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 20V10M12 20V4M6 20V14" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>혜택</span>
+            </div>
+            <div class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 1L21 5L17 9" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 11V9C3 7.93913 3.42143 6.92172 4.17157 6.17157C4.92172 5.42143 5.93913 5 7 5H21" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 23L3 19L7 15" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21 13V15C21 16.0609 20.5786 17.0783 19.8284 17.8284C19.0783 18.5786 18.0609 19 17 19H3" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>토스페이</span>
+            </div>
+            <div class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 20L21 10H3L12 20Z" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 4V10" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>주식</span>
+            </div>
+            <div class="nav-item">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 6H19" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 18H19" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>전체</span>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
